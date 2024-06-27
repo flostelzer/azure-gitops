@@ -14,15 +14,7 @@ spec:
     chart: crossplane-stable
     helm:
       releaseName: crossplane-stable
-      # valuesObject:
-      #   expose:
-      #     tls:
-      #       certSource: none
-      #     ingress:
-      #       className: nginx
-      #       hosts:
-      #         core: harbor.k8s.kos.cheap
-        # externalURL: https://harbor.k8s.kos.cheap
+      values:
         jobservice:
           replicas: 1
         registry:
