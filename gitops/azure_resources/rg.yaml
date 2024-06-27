@@ -1,0 +1,9 @@
+apiVersion: azure.upbound.io/v1beta1
+kind: ResourceGroup
+metadata:
+  name: rg-gitops-test-chn-1
+spec:
+  forProvider:
+    location: switzerlandnorth
+    tags:
+      provisioner: crossplane

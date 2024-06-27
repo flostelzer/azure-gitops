@@ -9,20 +9,12 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    repoURL: https://charts.crossplane.io
-    targetRevision: stable
-    chart: crossplane-stable
+    repoURL: https://charts.crossplane.io/stable
+    targetRevision: 1.16.0
+    chart: crossplane
     helm:
-      releaseName: crossplane-stable
-      # valuesObject:
-      #   expose:
-      #     tls:
-      #       certSource: none
-      #     ingress:
-      #       className: nginx
-      #       hosts:
-      #         core: harbor.k8s.kos.cheap
-        # externalURL: https://harbor.k8s.kos.cheap
+      releaseName: crossplane
+      values: |
         jobservice:
           replicas: 1
         registry:

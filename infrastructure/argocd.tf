@@ -19,5 +19,5 @@ resource "helm_release" "argocd" {
 resource "kubectl_manifest" "app_of_apps_infrastructure" {
   depends_on = [helm_release.argocd]
 
-  yaml_body = file("${path.module}/../gitops/app_of_apps_infrastructure.yaml")
+  yaml_body = file("${path.module}/../gitops/app_of_apps_platform_apps.yaml")
 }

@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: app-of-apps-infrastructure
+  name: app-of-apps-azure-resources
   namespace: argocd
 spec:
   destination:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: gitops
+    path: gitops/azure_resources
     repoURL: git@github.com:flostelzer/azure-gitops
     targetRevision: testing/gitops
   syncPolicy:
