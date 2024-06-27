@@ -4,7 +4,7 @@ metadata:
 kind: ProviderConfig
 spec:
   credentials:
-    source: SystemAssignedManagedIdentity
-  clientID: 4e65de39-a5c5-4e32-89a0-d82c1b3ef22b
+    source: UserAssignedManagedIdentity
+  clientID: d4306006-a3e8-4551-8530-15e6cd668211
   subscriptionID: da12d467-03ae-4675-aa29-d3b26fdbd2cc
   tenantID: a9080dcf-8589-4cb6-a2e2-21398dc6c671
