@@ -4,4 +4,3 @@ metadata:
   name: provider-azure-network
 spec:
   package: xpkg.upbound.io/upbound/provider-azure-network:v0.42.1
-EOF
