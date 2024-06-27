@@ -14,7 +14,7 @@ spec:
     chart: crossplane-stable
     helm:
       releaseName: crossplane-stable
-      values:
+      values: |
         jobservice:
           replicas: 1
         registry:
