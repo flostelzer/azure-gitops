@@ -8,7 +8,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: gitops
+    path: gitops/apps
     repoURL: git@github.com:flostelzer/azure-gitops
     targetRevision: testing/gitops
   syncPolicy:
