@@ -1,7 +1,0 @@
-apiVersion: packages.crossplane.io/v1alpha1
-kind: ClusterPackageInstall
-metadata:
-  name: provider-azure
-  namespace: crossplane
-spec:
-  package: "crossplane/provider-azure:master"
