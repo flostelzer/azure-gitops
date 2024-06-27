@@ -4,8 +4,6 @@ metadata:
 kind: ProviderConfig
 spec:
   credentials:
-    source: Secret
-    secretRef:
-      namespace: crossplane
-      name: azure-secret
-      key: creds
+    source: SystemAssignedManagedIdentity
+  subscriptionID: da12d467-03ae-4675-aa29-d3b26fdbd2cc
+  tenantID: a9080dcf-8589-4cb6-a2e2-21398dc6c671
