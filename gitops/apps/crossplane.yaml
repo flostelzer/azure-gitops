@@ -9,8 +9,8 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    repoURL: https://charts.crossplane.io
-    targetRevision: stable
+    repoURL: https://charts.crossplane.io/stable
+    targetRevision: 1.16.0
     chart: crossplane-stable
     helm:
       releaseName: crossplane-stable
