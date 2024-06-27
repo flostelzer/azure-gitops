@@ -5,6 +5,7 @@ provider "registry.terraform.io/alekc/kubectl" {
   version     = "2.0.4"
   constraints = ">= 2.0.4"
   hashes = [
+    "h1:1Ence3VDSQ7BNO+IFD6QoGBiBf6rJgCbygkATSdjcTA=",
     "h1:6xRO3WlBsOTbeJ90QFjxGbc4BjnoGdEaeSCdWI/B1jU=",
     "zh:15c227886bac78c8b8827f85595648212574ec81febc39e1055e1a6bf048fe65",
     "zh:2211ebeeb0918dbb3587d206e32adca9e1f343a93bbffcd37d8d99bf4d8dea9a",
@@ -27,6 +28,7 @@ provider "registry.terraform.io/hashicorp/azurerm" {
   version     = "3.107.0"
   constraints = "~> 3.107.0"
   hashes = [
+    "h1:/ePyZdlSiVIOeRGarx9I7Jll2752rzV5Z93IkzjfxDk=",
     "h1:vFPPOnlDFV12hdOo2Zv7zaS+iKZGH55MGQGOs1hnDZA=",
     "zh:0a5bfcdef1dad509c4f45c0ada2c8e2cc058cf9542ddec48fbee18c4097bce9e",
     "zh:0b56736691e4b28ea15b381a4711ff39719ff83a40ce97cd283eb21988f471f6",
@@ -44,10 +46,10 @@ provider "registry.terraform.io/hashicorp/azurerm" {
 }
 
 provider "registry.terraform.io/hashicorp/external" {
-  version     = "2.3.3"
-  constraints = "2.3.3"
+  version = "2.3.3"
   hashes = [
     "h1:H+3QlVPs/7CDa3I4KU/a23wYeGeJxeBlgvR7bfK1t1w=",
+    "h1:Up2xaIhiNYomK8Lhe29U2FcojpbRWZYDtSeS03OhI94=",
     "zh:03d81462f9578ec91ce8e26f887e34151eda0e100f57e9772dbea86363588239",
     "zh:37ec2a20f6a3ec3a0fd95d3f3de26da6cb9534b30488bc45723e118a0911c0d8",
     "zh:4eb5b119179539f2749ce9de0e1b9629d025990f062f4f4dddc161562bb89d37",
@@ -68,6 +70,7 @@ provider "registry.terraform.io/hashicorp/helm" {
   constraints = "2.12.1"
   hashes = [
     "h1:sgYI7lwGqJqPopY3NGmhb1eQ0YbH8PIXaAZAmnJrAvw=",
+    "h1:sjzfyNQAjtF9zXHxB67geryjGkHaPDMMVw9iqPP5pkE=",
     "zh:1d623fb1662703f2feb7860e3c795d849c77640eecbc5a776784d08807b15004",
     "zh:253a5bc62ba2c4314875139e3fbd2feaad5ef6b0fb420302a474ab49e8e51a38",
     "zh:282358f4ad4f20d0ccaab670b8645228bfad1c03ac0d0df5889f0aea8aeac01a",
@@ -87,6 +90,7 @@ provider "registry.terraform.io/hashicorp/kubernetes" {
   version     = "2.30.0"
   constraints = "2.30.0"
   hashes = [
+    "h1:UNl9l/iN6mrImpC7PNxdx93ycl3iLQdBKoYmCw8rYDc=",
     "h1:wRVWY3sK32BNInDOlQnoGSmL638f3jjLFypCAotwpc8=",
     "zh:06531333a72fe6d2829f37a328e08a3fc4ed66226344a003b62418a834ac6c69",
     "zh:34480263939ef5007ce65c9f4945df5cab363f91e5260ae552bcd9f2ffeed444",

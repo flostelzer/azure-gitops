@@ -9,8 +9,8 @@ spec:
   project: default
   source:
     path: gitops
-    repoURL: git@github.com:flostelzer/azure_gitops.git
-    targetRevision: main
+    repoURL: git@github.com:flostelzer/azure-gitops
+    targetRevision: testing/gitops
   syncPolicy:
     automated:
       prune: true
