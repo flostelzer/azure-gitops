@@ -1,0 +1,17 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: app-of-apps-infrastructure
+  namespace: argocd
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    path: gitops/platform_apps
+    repoURL: git@github.com:flostelzer/azure-gitops
+    targetRevision: testing/gitops
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
