@@ -1,7 +1,7 @@
-apiVersion: packages.crossplane.io/v1alpha1
-kind: ClusterPackageInstall
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
 metadata:
-  name: provider-azure
-  namespace: crossplane
+  name: provider-azure-network
 spec:
-  package: "crossplane/provider-azure:master"
+  package: xpkg.upbound.io/upbound/provider-azure-network:v0.42.1
+EOF
