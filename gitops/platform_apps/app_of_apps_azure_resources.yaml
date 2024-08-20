@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     path: gitops/azure_resources
-    repoURL: https://github.com/flostelzer/azure-gitops.git
+    repoURL: https://github.com/samuelkaeser/azure-gitops.git
     targetRevision: testing/gitops
   syncPolicy:
     automated:
