@@ -1,12 +1,12 @@
 apiVersion: network.azure.upbound.io/v1beta1
 kind: VirtualNetwork
 metadata:
-  name: vnet-gitops-test-chn-1
+  name: vnet-gitops-test-1
 spec:
   forProvider:
     addressSpace:
       - 10.0.0.0/16
-    location: "switzerlandnorth"
-    resourceGroupName: rg-gitops-test-chn-1
+    location: "centralus"
+    resourceGroupName: rg-sam-gitops-test
     tags:
       provisioner: crossplane
