@@ -5,6 +5,6 @@ kind: ProviderConfig
 spec:
   credentials:
     source: UserAssignedManagedIdentity
-  clientID: 8c4cde32-f90d-490e-a186-074559ff975c
+  clientID: bd0fc7fb-2428-4c6b-b000-5280499e4836
   subscriptionID: da12d467-03ae-4675-aa29-d3b26fdbd2cc
   tenantID: a9080dcf-8589-4cb6-a2e2-21398dc6c671
