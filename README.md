@@ -2,8 +2,8 @@
 Deploy Azure Infrastructure via GitOps
 
 First, deploy the AKS cluster: 
-az aks create --resource-group rg-sam-gitops-test --name gitops-test-1 --node-count 2 --enable-oidc-issuer --location centralus
-az aks get-credentials --resource-group rg-sam-gitops-test --name gitops-test-1 --overwrite-existing
+az aks create --resource-group rg-sam-test --name gitops-test-1 --node-count 2 --enable-oidc-issuer --location centralus
+az aks get-credentials --resource-group rg-sam-test --name gitops-test-1 --overwrite-existing
 kubectl -n argocd get services -o jsonpath='{range .items[*]}{.metadata.name}{"\t"}{.status.loadBalancer.ingress[*].ip}{"\n"}{end}'
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d; echo
 
