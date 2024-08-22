@@ -1,0 +1,12 @@
+apiVersion: network.azure.upbound.io/v1beta1
+kind: VirtualNetwork
+metadata:
+  name: vnet-gitops-test-2
+spec:
+  forProvider:
+    addressSpace:
+      - 10.0.0.0/16
+    location: "centralus"
+    resourceGroupName: rg-sam-test
+    tags:
+      provisioner: crossplane
