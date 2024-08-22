@@ -1,0 +1,16 @@
+apiVersion: cosmosdb.azure.upbound.io/v1beta1
+kind: Account
+metadata:
+  name: my-cosmosdb-account
+spec:
+  forProvider:
+    capabilities:
+    - name: EnableServerless
+    enableAutomaticFailover: true
+    kind: GlobalDocumentDB
+    location: centralus
+    resourceGroupName: rg-sam-test
+    consistencyPolicy:
+      defaultConsistencyLevel: Session
+  providerConfigRef:
+    name: azure-provider-config
