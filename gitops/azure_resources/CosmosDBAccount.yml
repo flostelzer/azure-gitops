@@ -14,3 +14,5 @@ spec:
       defaultConsistencyLevel: Session
   providerConfigRef:
     name: azure-provider-config
+  tags:
+    provisioner: crossplane
