@@ -6,7 +6,6 @@ spec:
   forProvider:
     capabilities:
     - name: EnableServerless
-    enableAutomaticFailover: true
     kind: GlobalDocumentDB
     location: centralus
     resourceGroupName: rg-sam-test
