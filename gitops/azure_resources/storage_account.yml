@@ -1,0 +1,25 @@
+apiVersion: storage.azure.upbound.io/v1beta1
+kind: Account
+metadata:
+  annotations:
+    meta.upbound.io/example-id: storage/v1beta1/datalakegen2path
+  labels:
+    testing.upbound.io/example-name: example
+  name: dlgpexample
+spec:
+  forProvider:
+    accountKind: StorageV2
+    accountReplicationType: LRS
+    accountTier: Standard
+    isHnsEnabled: true
+    location: centralus
+    resourceGroupName: rg-gitops-test-2
+    tags:
+      provisioner: crossplane
+      SecfixOwner: "michael.wachter@ipt.ch" # Or appropriate owner identifier
+      SecfixNonProd: "true"
+      SecfixNoAlert: "not important"
+      SecfixContainsUserData: "false" # Or "true" if applicable
+      SecfixUserDataStored: "no user data stored"
+      SecfixContainsEPHI: "false" # Or "true" if applicable
+      SecfixDescription: "Description of your resource group"
