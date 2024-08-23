@@ -1,9 +1,0 @@
-apiVersion: azure.upbound.io/v1beta1
-kind: ResourceGroup
-metadata:
-  name: rg-gitops-test-2
-spec:
-  forProvider:
-    location: centralus
-    tags:
-      provisioner: crossplane
