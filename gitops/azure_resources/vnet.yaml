@@ -7,6 +7,13 @@ spec:
     addressSpace:
       - 10.0.0.0/16
     location: "centralus"
-    resourceGroupName: rg-sam-test
+    resourceGroupName: rg-gitops-test-2
     tags:
       provisioner: crossplane
+      SecfixOwner: "michael.wachter@ipt.ch" # Or appropriate owner identifier
+      SecfixNonProd: "true"
+      SecfixNoAlert: "not important"
+      SecfixContainsUserData: "false" # Or "true" if applicable
+      SecfixUserDataStored: "no user data stored"
+      SecfixContainsEPHI: "false" # Or "true" if applicable
+      SecfixDescription: "Description of your resource group"
