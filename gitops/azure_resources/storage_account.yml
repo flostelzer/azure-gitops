@@ -5,7 +5,7 @@ metadata:
     meta.upbound.io/example-id: storage/v1beta1/datalakegen2path
   labels:
     testing.upbound.io/example-name: example
-  name: dlgpexample
+  name: samipt123
 spec:
   forProvider:
     accountKind: StorageV2
