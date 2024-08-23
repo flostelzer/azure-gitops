@@ -21,8 +21,10 @@ spec:
 #       testing.upbound.io/example-name: rg-sam-test
   tags:
     provisioner: crossplane
-    SecfixContainsEPHI: "false" # Or "true" if applicable
-    SecfixContainsUserData: "false" # Or "true" if applicable
-    SecfixDescription: "Description of your Cosmos DB account" 
     SecfixOwner: "samuel.kaeser@ipt.ch" # Or appropriate owner identifier
-    SecfixUserDataStored: "false" # Or "true" if applicable
+    SecfixNonProd: "true"
+    SecfixNoAlert: "not important"
+    SecfixContainsUserData: "false" # Or "true" if applicable
+    SecfixUserDataStored: "no userdata stored"
+    SecfixContainsEPHI: "false" # Or "true" if applicable
+    SecfixDescription: "Description of your Cosmos DB account" 
