@@ -15,8 +15,9 @@ spec:
         location: centralus
     location: centralus
     offerType: Standard
-    resourceGroupNameSelector:
-      matchLabels:
-        testing.upbound.io/example-name: rg-sam-test
+    resourceGroupName: rg-sam-test
+#    resourceGroupNameSelector:
+#      matchLabels:
+#       testing.upbound.io/example-name: rg-sam-test
   tags:
     provisioner: crossplane
