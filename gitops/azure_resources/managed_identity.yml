@@ -1,0 +1,18 @@
+apiVersion: managedidentity.azure.upbound.io/v1beta1
+kind: UserAssignedIdentity
+metadata:
+  name: samiptmanagidentity
+spec:
+  forProvider:
+    location: centralus
+    name: samiptmanagidentity
+    resourceGroupName: rg-gitops-test-2
+    tags:
+      provisioner: crossplane
+      SecfixOwner: "michael.wachter@ipt.ch" # Or appropriate owner identifier
+      SecfixNonProd: "true"
+      SecfixNoAlert: "not important"
+      SecfixContainsUserData: "false" # Or "true" if applicable
+      SecfixUserDataStored: "no user data stored"
+      SecfixContainsEPHI: "false" # Or "true" if applicable
+      SecfixDescription: "Description of your resource group"
