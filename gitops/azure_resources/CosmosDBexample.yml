@@ -15,7 +15,7 @@ spec:
         location: centralus
     location: centralus
     offerType: Standard
-    resourceGroupName: rg-sam-test
+    resourceGroupName: rg-gitops-test-2
 #    resourceGroupNameSelector:
 #      matchLabels:
 #       testing.upbound.io/example-name: rg-sam-test
@@ -25,5 +25,6 @@ spec:
     SecfixNonProd: "true"
     SecfixNoAlert: "not important"
     SecfixContainsUserData: "false" # Or "true" if applicable
+    SecfixUserDataStored: "no user data stored"
     SecfixContainsEPHI: "false" # Or "true" if applicable
-    SecfixDescription: "Description of your Cosmos DB account" 
+    SecfixDescription: "Description of your resource group"
