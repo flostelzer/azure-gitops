@@ -6,4 +6,11 @@ spec:
   forProvider:
     location: switzerlandnorth
     tags:
+      SecfixContainsEPHI: 'false'
+      SecfixContainsUserData: 'false'
+      SecfixDescription: Description of your resource group
+      SecfixNoAlert: not important
+      SecfixNonProd: 'true'
+      SecfixOwner: michael.wachter@ipt.ch
+      SecfixUserDataStored: no user data stored
       provisioner: crossplane
