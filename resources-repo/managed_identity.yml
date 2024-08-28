@@ -4,7 +4,7 @@ metadata:
   name: samiptmanagidentity
 spec:
   forProvider:
-    location: centralus
+    location: switzerlandnorth
     name: samiptmanagidentity
     resourceGroupName: rg-gitops-test-2
     tags:

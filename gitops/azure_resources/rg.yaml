@@ -4,7 +4,7 @@ metadata:
   name: rg-gitops-test-2
 spec:
   forProvider:
-    location: centralus
+    location: switzerlandnorth
     tags:
       provisioner: crossplane
       SecfixOwner: "michael.wachter@ipt.ch" # Or appropriate owner identifier

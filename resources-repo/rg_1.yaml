@@ -4,6 +4,6 @@ metadata:
   name: rg-gitops-test-1
 spec:
   forProvider:
-    location: centralus
+    location: switzerlandnorth
     tags:
       provisioner: crossplane

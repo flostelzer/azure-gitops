@@ -8,7 +8,7 @@ spec:
     accountReplicationType: LRS
     accountTier: Standard
     isHnsEnabled: true
-    location: centralus
+    location: switzerlandnorth
     resourceGroupName: rg-gitops-test-2
     tags:
       provisioner: crossplane

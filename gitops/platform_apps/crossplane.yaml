@@ -32,6 +32,7 @@ spec:
         args:
           - '--enable-realtime-compositions'
           - '--sync-interval=1s'
+          - '--max-reconcile-rate=1'
   syncPolicy:
     automated:
       prune: true
