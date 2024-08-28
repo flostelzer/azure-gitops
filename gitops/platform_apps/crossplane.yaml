@@ -31,6 +31,7 @@ spec:
               release: prometheus-operator
         args:
           - '--enable-realtime-compositions'
+          - '--sync-interval=1s'
   syncPolicy:
     automated:
       prune: true
