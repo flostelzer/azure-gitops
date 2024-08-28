@@ -30,7 +30,7 @@ spec:
             additionalLabels:
               release: prometheus-operator
         args:
-          - '--max-reconcile-rate=1'
+          - '--poll-interval=60s'
   syncPolicy:
     automated:
       prune: true
