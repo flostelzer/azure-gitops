@@ -1,19 +1,19 @@
-apiVersion: network.azure.upbound.io/v1beta1
-kind: VirtualNetwork
-metadata:
-  name: vnet-gitops-test-chn-1
-spec:
-  forProvider:
-    addressSpace:
-      - 10.0.0.0/16
-    location: "switzerlandnorth"
-    resourceGroupName: rg-gitops-test-chn-1
-    tags:
-    SecfixContainsEPHI: 'false'
-      SecfixContainsUserData: 'false'
-      SecfixDescription: Description of your resource group
-      SecfixNoAlert: not important
-      SecfixNonProd: 'true'
-      SecfixOwner: michael.wachter@ipt.ch
-      SecfixUserDataStored: no user data stored
-      provisioner: crossplane
+# apiVersion: network.azure.upbound.io/v1beta1
+# kind: VirtualNetwork
+# metadata:
+#   name: vnet-gitops-test-chn-1
+# spec:
+#   forProvider:
+#     addressSpace:
+#       - 10.0.0.0/16
+#     location: "switzerlandnorth"
+#     resourceGroupName: rg-gitops-test-chn-1
+#     tags:
+#     SecfixContainsEPHI: 'false'
+#       SecfixContainsUserData: 'false'
+#       SecfixDescription: Description of your resource group
+#       SecfixNoAlert: not important
+#       SecfixNonProd: 'true'
+#       SecfixOwner: michael.wachter@ipt.ch
+#       SecfixUserDataStored: no user data stored
+#       provisioner: crossplane
