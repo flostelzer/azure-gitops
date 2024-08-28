@@ -6,7 +6,7 @@ spec:
   forProvider:
     addressSpace:
       - 10.0.0.0/16
-    location: "centralus"
+    location: switzerlandnorth
     resourceGroupName: rg-gitops-test-2
     tags:
       provisioner: crossplane
