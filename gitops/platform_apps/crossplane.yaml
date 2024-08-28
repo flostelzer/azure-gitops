@@ -15,9 +15,6 @@ spec:
     helm:
       releaseName: crossplane
       values: |
-        controller: 
-            args: 
-              - --sync-interval=1s
         jobservice:
           replicas: 1
         registry:
@@ -32,6 +29,8 @@ spec:
             enabled: true
             additionalLabels:
               release: prometheus-operator
+        args:
+          - '--enable-realtime-compositions'
   syncPolicy:
     automated:
       prune: true
