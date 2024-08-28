@@ -17,7 +17,7 @@ spec:
       values: |
         controller: 
             args: 
-              - --sync-period=1s
+              - --sync-interval=1s
         jobservice:
           replicas: 1
         registry:
